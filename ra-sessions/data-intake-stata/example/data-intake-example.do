@@ -14,7 +14,7 @@ global iedup  "${exmpl}\ieduplicates"
 
 
 ***************
-* Open demo data
+* Open data
 
 * Get data as shared from project
 use "${data}\ce-intake-stata.dta", clear
@@ -33,6 +33,7 @@ ieduplicates ID_05 using "${iedup}/example-report.xlsx" , unique(key)
 ***************
 * Demo iecorrect
 
+iecorrect apply using "${iecorr}/demo-corrections.xlsx", idvar(key) noisily
 
 ***************
 * Demo iesave

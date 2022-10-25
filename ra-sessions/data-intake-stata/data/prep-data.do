@@ -31,7 +31,7 @@ replace  keystr = "X"   if key < 1000
 replace  keystr = "XX"  if key < 100  
 replace  keystr = "XXX" if key < 10   
 tostring key    , replace
-replace  key    = "uuid-" + keystr + key
+replace  key    = "uuid_" + keystr + key
 drop     keystr
 
 
