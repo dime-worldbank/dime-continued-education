@@ -23,6 +23,8 @@ use "${data}\ce-intake-stata.dta", clear
 ***************
 * Demo ieduplicates
 
+ieduplicates ID_05 using "${iedup}/example-report.xlsx" , unique(key) 
+
 
 ***************
 * Demo iecodebook

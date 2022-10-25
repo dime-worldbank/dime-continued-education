@@ -35,6 +35,10 @@
 !*/
 
 #######################
+# Un-ignore session specific files
+!ra-sessions/data-intake-stata/example/ieduplicates/example-report.xlsx
+
+#######################
 # The following file types are code that should always be
 # included no matter where in the repository folder they are
 # located unless you explicitly ignore that folder
