@@ -33,4 +33,9 @@ use "${data}/ce-intake-stata.dta", clear
 
 * iecodebook apply using "${iecb}/codebook-completed.xlsx"
 
+****************
+* Step 4: Create dataset record
+
+* iecodebook export using "${iecb}/codebook-data.xlsx"
+
 // End of file
