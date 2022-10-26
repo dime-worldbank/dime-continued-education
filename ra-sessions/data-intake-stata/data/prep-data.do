@@ -6,7 +6,7 @@
 if c(username) == "wb462869" global clonefolder "C:/Users/wb462869/github/dime-continued-education"
 
 * BBD root path
-if c(username) == "" global clonefolder ""
+if c(username) == "bbdaniels" global clonefolder "/Users/bbdaniels/GitHub/dime-continued-education"
 
 
 * Session folder
