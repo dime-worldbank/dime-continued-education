@@ -5,8 +5,8 @@
 * root path to clone
 if c(username) == "" global sessionfldr ""
 
-global data   "${sessionfldr}\data"
-global iedup  "${sessionfldr}\demo-files/ieduplicates"
+global data   "${sessionfldr}/data"
+global iedup  "${sessionfldr}/demo-files/ieduplicates"
 
 ***************
 ***************
@@ -16,7 +16,7 @@ global iedup  "${sessionfldr}\demo-files/ieduplicates"
 * Prep data
 
 * Get data as shared from project
-use "${data}\ce-intake-stata.dta", clear
+use "${data}/ce-intake-stata.dta", clear
 
 
 
@@ -36,7 +36,7 @@ use "${data}\ce-intake-stata.dta", clear
 
 
 ****************
-* Step 3 
+* Step 3
 
 * Fill in report and run step 2 again
 
