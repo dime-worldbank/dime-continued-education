@@ -17,6 +17,9 @@ global project_version 14
 ***************
 ***************
 
+ssc install ietoolkit
+ssc install iefieldkit
+
 ieboilstart, v(${project_version})
 `r(version)'
 
