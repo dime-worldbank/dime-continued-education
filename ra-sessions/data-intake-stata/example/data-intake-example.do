@@ -47,6 +47,6 @@ iecorrect apply using "${iecorr}/corrections-completed.xlsx", idvar(id_05) noisi
 * Demo iesave
 
 ${load_iesave}
-iesave using "${iesave}/data-intake.dta", id(id_05) report dtaversion(14) replace reportreplace
+iesave using "${iesave}/data-intake.dta", id(id_05) report dtaversion(14) replace
 
 char list _dta[]
