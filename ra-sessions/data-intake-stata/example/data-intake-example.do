@@ -10,6 +10,7 @@ global exmpl  "${sessionfldr}/example"
 global iedup  "${exmpl}/ieduplicates"
 global iecb   "${exmpl}/iecodebook"
 global iecorr "${exmpl}/iecorrect"
+global iesave "${exmpl}/iesave"
 
 ***************
 ***************
@@ -44,3 +45,8 @@ iecorrect apply using "${iecorr}/corrections-completed.xlsx", idvar(id_05) noisi
 
 ***************
 * Demo iesave
+
+${load_iesave}
+iesave using "${iesave}/data-intake.dta", id(id_05) report dtaversion(14) replace reportreplace
+
+char list _dta[]

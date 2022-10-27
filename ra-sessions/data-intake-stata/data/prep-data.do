@@ -16,12 +16,21 @@ global data        "${sessionfldr}/data"
 ***************
 ***************
 
-
 ***************
 * Prep data
 
 * Get data as shared from project
 use "${data}/LWH_FUP2.dta", clear
+
+* Remove all chars
+ds
+local vlist `r(varlist)' _dta
+foreach v in `vlist' {
+    local ilist: char `v'[]
+    foreach i in `ilist' {
+        char `v'[`i']
+    }
+}
 
 ** ieduplicates
 * Gen string to simulate uuid key string
@@ -33,6 +42,8 @@ replace  keystr = "XXX" if key < 10
 tostring key    , replace
 replace  key    = "uuid_" + keystr + key
 drop     keystr
+
+
 
 
 ***************
