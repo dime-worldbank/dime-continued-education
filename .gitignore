@@ -37,6 +37,8 @@
 #######################
 # Un-ignore session specific files
 !ra-sessions/data-intake-stata/example/ieduplicates/duplicates-report.xlsx
+!ra-sessions/data-intake-stata/example/iecodebook/codebook-completed.xlsx
+!ra-sessions/data-intake-stata/example/iecorrect/corrections-completed.xlsx
 
 #######################
 # The following file types are code that should always be
