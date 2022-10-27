@@ -6,7 +6,7 @@ This report was created by the Stata command iesave (version 6.4). Read more abo
 - **.dta version used:** 14
 - **Data signature:** 1205:36(30515):3855774373:3802383707
 - **Last saved by:** User info withheld, see option userinfo in command iesave.
-- **Last saved at:** 07:53:20 27 Oct 2022
+- **Last saved at:** 08:20:07 27 Oct 2022
 
 ## Variable type: String
 
@@ -50,11 +50,11 @@ This report was created by the Stata command iesave (version 6.4). Read more abo
 | a_crop_c1_p2 | "Plot 2 Crop" | crops | 641 | 15 | 0 | Dry Beans:393 Sorghum:67 Maize:45 Irish Potatoes:36 Sweet Potatoes:32 |
 | aa_01_1 | "Any Cows Purchased" | aa_01 | 1205 | 3 | 0 | No:1086 Yes:115 Don't know:4 |
 | aa_01_2 | "Any Sheep Purchased" | aa_01 | 1205 | 2 | 0 | No:1172 Yes:33 |
-| crp08ua_c1_p1 | "Plot 1 Units" | crp08ua | 972 | 10 | 0 | kg:887 100 kg sack:39 Mironko (1.5 kg):24 10 kg basket:6 50 kg sack:4 |
+| crp08ua_c1_p1 | "Plot 1 Units" | crp08ua | 972 | 10 | 0 | kg:887 100 kg sack:39 Mironko (1.5 kg):24 10 kg basket:6 Bucket (5 kg):4 |
 | crp08ua_c1_p2 | "Plot 2 Units" | crp08ua | 602 | 9 | 0 | kg:539 Mironko (1.5 kg):22 100 kg sack:20 15 kg basket:7 10 kg basket:6 |
 | crp09ua_c1_p1 | "Plot 1 Sales Units" | crp09ua | 358 | 9 | 0 | kg:320 100 kg sack:17 Mironko (1.5 kg):9 tons:4 50 kg sack:3 |
-| crp09ua_c1_p2 | "Plot 2 Sales Units" | crp09ua | 212 | 8 | 0 | kg:184 100 kg sack:10 Mironko (1.5 kg):8 25 kg sack:3 15 kg basket:3 |
-| exp_26_1 | "Source of Flour" | exp_26 | 978 | 5 | 0 | Purchased:576 Own Production:389 Gifts from relatives:11 Exhange (labor/food):1 Borrowed:1 |
+| crp09ua_c1_p2 | "Plot 2 Sales Units" | crp09ua | 212 | 8 | 0 | kg:184 100 kg sack:10 Mironko (1.5 kg):8 15 kg basket:3 25 kg sack:3 |
+| exp_26_1 | "Source of Flour" | exp_26 | 978 | 5 | 0 | Purchased:576 Own Production:389 Gifts from relatives:11 Borrowed:1 Exhange (labor/food):1 |
 | exp_26_2 | "Source of Bread" | exp_26 | 173 | 3 | 0 | Purchased:170 Own Production:2 Borrowed:1 |
 | id_10_confirm | "Site Correct?" | id_10_confirm | 1205 | 2 | 0 | Yes:1198 No:7 |
 | id_10_corrected | "Corrected Site" | id_10_corrected | 7 | 3 | 0 | Rwamagana-34:4 Rwamagana-35:2 Kayonza-4:1 |
