@@ -5,11 +5,11 @@
 * root path to clone
 if c(username) == "" global sessionfldr ""
 
-global data   "${sessionfldr}\data"
-global exmpl  "${sessionfldr}\example"
-global iedup  "${exmpl}\ieduplicates"
-global iecb   "${exmpl}\iecodebook"
-global iecorr "${exmpl}\iecorrect"
+global data   "${sessionfldr}/data"
+global exmpl  "${sessionfldr}/example"
+global iedup  "${exmpl}/ieduplicates"
+global iecb   "${exmpl}/iecodebook"
+global iecorr "${exmpl}/iecorrect"
 
 ***************
 ***************
@@ -21,7 +21,7 @@ ieboilstart, v(14)
 * Open data
 
 * Get data as shared from project
-use "${data}\ce-intake-stata.dta", clear
+use "${data}/ce-intake-stata.dta", clear
 
 ***************
 * Demo ieduplicates
