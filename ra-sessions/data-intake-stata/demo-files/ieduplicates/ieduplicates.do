@@ -11,18 +11,12 @@ global iedup  "${sessionfldr}/demo-files/ieduplicates"
 ***************
 ***************
 
-
-***************
-* Prep data
-
-* Get data as shared from project
-use "${data}/ce-intake-stata.dta", clear
-
-
-
 ****************
 * Step 1
 
+// * Get data as shared from project
+// use "${data}/ce-intake-stata.dta", clear
+//
 // count
 // ieduplicates ID_05 using "${iedup}/demo-report.xlsx" , unique(key)
 
@@ -30,6 +24,9 @@ use "${data}/ce-intake-stata.dta", clear
 ****************
 * Step 2
 
+// * Get data as shared from project
+// use "${data}/ce-intake-stata.dta", clear
+//
 // count
 // ieduplicates ID_05 using "${iedup}/demo-report.xlsx" , unique(key) force
 // count
@@ -38,14 +35,23 @@ use "${data}/ce-intake-stata.dta", clear
 ****************
 * Step 3
 
-* Fill in report and run step 2 again
+// * Get data as shared from project
+// use "${data}/ce-intake-stata.dta", clear
+//
+// * Investigatge duplicates
+// iecompdup ID_05 , id(3004) didifference
+// iecompdup ID_05 , id(3209) didifference
+
 
 
 ****************
 * Step 4
 
-* Run without force
+* Apply corrections and run without force
 
+// * Get data as shared from project
+// use "${data}/ce-intake-stata.dta", clear
+//
 // count
 // ieduplicates ID_05 using "${iedup}/demo-report.xlsx" , unique(key)
 // count
