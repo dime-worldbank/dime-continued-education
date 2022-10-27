@@ -12,10 +12,12 @@ global iecb   "${exmpl}/iecodebook"
 global iecorr "${exmpl}/iecorrect"
 global iesave "${exmpl}/iesave"
 
+global project_version 14
+
 ***************
 ***************
 
-ieboilstart, v(14)
+ieboilstart, v(${project_version})
 `r(version)'
 
 ***************
@@ -47,6 +49,6 @@ iecorrect apply using "${iecorr}/corrections-completed.xlsx", idvar(id_05) noisi
 * Demo iesave
 
 ${load_iesave}
-iesave using "${iesave}/data-intake.dta", id(id_05) report dtaversion(14) replace
+iesave using "${iesave}/data-intake.dta", id(id_05) report dtaversion(${project_version}) replace
 
 char list _dta[]
